@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/global.css" />
+		<title>Quiz Circuitos Digitais</title>
+	</head>
+	<body>
+		<section><h1 id="quiz-title">Quiz Circuitos Digitais</h1></section>
+		<main>
+			<section id="game">
+				<section id="question-index">
+					<h1>Pergunta <span id="actual-question">1</span>/<span id="total-questions">X</span></h1>
+				</section>
+				<section id="question-section">
+					<h1 id="question">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque voluptates, quam error
+						sunt, accusantium veniam fuga eveniet a aliquid tenetur necessitatibus sapiente
+						temporibus odit at aaperiam ducimus quaerat consequuntur molestias.
+					</h1>
+					<div id="img-box">
+						<img id="question-img" />
+					</div>
+				</section>
+				<section id="options">
+					<ul>
+						<li onclick="Answer(1)" id="a1">
+							Resposta 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est impedit
+							reiciendis modi id quae tempore, sunt fugit voluptatum ipsam accusantium quam debitis
+							veritatis labore ducimus corporis. Tenetur saepe ab neque.
+						</li>
+						<li onclick="Answer(2)" id="a2">
+							Resposta 2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam mollitia
+							autem architecto, ipsam quibusdam perspiciatis iste aut odio? Quo cupiditate
+							voluptatem consequatur molestiae iste nisi culpa assumenda placeat! Maxime, qui.
+						</li>
+						<li onclick="Answer(3)" id="a3">
+							Resposta 3 Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+							molestias deserunt earum cumque nobis autem, placeat non optio! Nisi natus asperiores
+							et officia enim ipsa nam cupiditate necessitatibus? Distinctio, aspernatur!
+						</li>
+						<li onclick="Answer(4)" id="a4">
+							Resposta 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia rerum autem
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section id="congrats">
+				<h1 id="congrats-message">Parabéns, você acertou <span id="score">X</span> questões!</h1>
+				<img src="./assets/gif/developers.gif" id="final-gif" />
+			</section>
+		</main>
+	</body>
+	<script src="js/index.js"></script>
+</html>
