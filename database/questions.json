@@ -3,10 +3,10 @@
 		"question": "Em uma escola, a professora Carla notou que os 7 alunos de sua pequena turma do 1º ano não se relacionavam bem e brigavam muito entre si. Como um exercício psicossocial, ela somente os levava para o intervalo quando oito botões (sete para os alunos, e um para ela), devidamente distanciados na sala para que um único aluno não aperte mais de um botão, fossem pressionados ao mesmo tempo. Para tal, ela conectou todos os sinais dos botões à um circuito digital que somente emitia um som  quando todas os botões fossem devidamentes pressinados. Escolha dentre as alterantivas, qual circuito ela utilizou para esta tarefa.",
 		"image": "",
 		"a1": "Contador",
-		"a2": "Porta OR",
+		"a2": "Porta AND",
 		"a3": "Selecionador",
-		"a4": "Porta AND",
-		"correct": 4
+		"a4": "Porta OR",
+		"correct": 2
 	},
 	{
 		"question": "Imagine que em uma escola foi instalado um circuito que determina a quantidade de alunos (distintos ou não) que passaram pelo portão principal todos os dias. Qual foi o circuito instalado nesta escola?",

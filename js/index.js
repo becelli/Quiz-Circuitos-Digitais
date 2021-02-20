@@ -10,7 +10,7 @@ const img = document.querySelector('#question-img')
 const a2 = document.querySelector('#a2')
 const a3 = document.querySelector('#a3')
 const a4 = document.querySelector('#a4')
-const game = document.querySelector('#game')
+const game = document.querySelector('.game')
 const congrats = document.querySelector('#congrats')
 const readJSON = async () => {
 	await fetch('./database/questions.json')
@@ -42,19 +42,25 @@ const recoverQuestionIndex = () => {
 	hits = parseInt(hitsScore)
 	if (isNaN(questionIndex)) questionIndex = 1
 	if (isNaN(hits)) hits = 0
-	console.log(hits + ' acertos')
 }
 maxIndex.innerHTML = totalQuestions
 recoverQuestionIndex()
 if (questionIndex <= totalQuestions) readJSON()
 else {
 	const congratsMsg = document.querySelector('#congrats-message')
-	if (hits >= (totalQuestions / 4) * 3) congratsMsg.style.color = 'blue'
-	else if (hits >= Math.floor(totalQuestions / 2)) {
-		congratsMsg.style.color = 'green'
-	} else congratsMsg.style.color = 'red'
+	const congratsGif = document.querySelector('#final-gif')
+	if (hits >= (totalQuestions / 4) * 3) {
+		congratsMsg.style.color = '#3fff3f'
+		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
+	} else if (hits >= Math.floor(totalQuestions / 2)) {
+		congratsMsg.style.color = '#ffdf0f'
+		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
+		congratsGif.setAttribute('src', './assets/gif/fine.gif')
+	} else {
+		congratsMsg.style.color = '#ff2f4f'
+		congratsMsg.innerHTML = `Você infelizmente apenas acertou ${hits} de ${totalQuestions} questões :( Você talvez se sinta frustado, porém, com mais esforço e dedicação, você chega lá!`
+		congratsGif.setAttribute('src', './assets/gif/less.gif')
+	}
 	game.style.display = 'none'
 	congrats.style.display = 'block'
-	const score = document.querySelector('#score')
-	score.innerHTML = hits
 }
