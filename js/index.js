@@ -1,7 +1,7 @@
 let questionIndex = 1
 let hits = 0
 let data = []
-const totalQuestions = 3
+const totalQuestions = 7
 const questionTitle = document.querySelector('#question')
 const currentIndex = document.querySelector('#actual-question')
 const maxIndex = document.querySelector('#total-questions')
@@ -49,15 +49,15 @@ if (questionIndex <= totalQuestions) readJSON()
 else {
 	const congratsMsg = document.querySelector('#congrats-message')
 	const congratsGif = document.querySelector('#final-gif')
-	if (hits >= (totalQuestions / 4) * 3) {
-		congratsMsg.style.color = '#3fff3f'
+	if (hits >= Math.floor(totalQuestions * 0.75)) {
+		congratsMsg.style.color = '#2fcf2f'
 		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
 	} else if (hits >= Math.floor(totalQuestions / 2)) {
-		congratsMsg.style.color = '#ffdf0f'
+		congratsMsg.style.color = '#efaf0f'
 		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
 		congratsGif.setAttribute('src', './assets/gif/fine.gif')
 	} else {
-		congratsMsg.style.color = '#ff2f4f'
+		congratsMsg.style.color = '#df1f3f'
 		congratsMsg.innerHTML = `Você infelizmente apenas acertou ${hits} de ${totalQuestions} questões :( Você talvez se sinta frustado, porém, com mais esforço e dedicação, você chega lá!`
 		congratsGif.setAttribute('src', './assets/gif/less.gif')
 	}

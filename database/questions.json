@@ -9,6 +9,15 @@
 		"correct": 2
 	},
 	{
+		"question": "Na aula de matemática, a professora ao lecinar as diferentes bases numéricas e sistemas de numeração, ficou muito triste com a recepção dos alunos, pois não gostavam de matemática e disseram que preferiam a matéria de Língua Portuguesa. Ela voltou para casa e pensou em alguma maneira de associar as duas matérias. Na aula seguinte, ela pediu para que João encontrasse um verbo da língua portuguesa apenas utilizando o número 110011 em base binária e o sistema de numeração romano. Qual verbo a professora queria que João encontrasse?",
+		"image": "bases.jpg",
+		"a1": "Ler",
+		"a2": "Ser",
+		"a3": "Dormir",
+		"a4": "Vir",
+		"correct": 1
+	},
+	{
 		"question": "Imagine que em uma escola foi instalado um circuito que determina a quantidade de alunos (distintos ou não) que passaram pelo portão principal todos os dias. Qual foi o circuito instalado nesta escola?",
 		"image": "",
 		"a1": "Somador",
@@ -17,13 +26,41 @@
 		"a4": "Quantificador",
 		"correct": 3
 	},
+	
 	{
-		"question": "Na aula de educação física, o professor Roberto orientou os alunos do primeiro ano do ensino médio a jogarem basquete. Um de seus alunos, Daniel, gosta muito de computação, e pediu para o professor que utilizasse um circuito para a contagem da pontuação e ele concordou. Neste circuito, há três botões, que incrementam 1, 2 e 3 pontos na contagem total de um time. Determine o circuito utilizado para que seja computado, de uma só vez, 1, 2 ou 3 pontos na contagem total.",
+		"question": "Na aula de educação física, o professor Roberto orientou os alunos do primeiro ano do ensino médio a jogarem basquete. Um de seus alunos, Daniel, gosta muito de computação, e pediu para o professor que utilizasse um circuito para a contagem da pontuação e ele concordou. Neste circuito, há três botões, que acrescentam 1, 2 e 3 pontos na contagem total de um time. Determine o circuito utilizado para que seja computado, de uma só vez, 1, 2 ou 3 pontos na contagem total.",
 		"image": "",
 		"a1": "Contador",
 		"a2": "Somador",
-		"a3": "Subtrator",
+		"a3": "Substrador",
 		"a4": "Registrador",
+		"correct": 2
+	},
+	{
+		"question": "A cantina do colégio particular João Pedroso investiu em uma máquina de alimentos e bebidas que possui um painel em que os alunos escolhem o produto desejado, e depois inserem o valor do produto em dinheiro para comprá-lo. Neste painel há botões que enviam uma código para o circuito interno da máquina, que 'libera' o produto para ser retirado pelo aluno. Qual o circuito interno da máquina que é responsável por 'compreender' qual produto o aluno selecionou?",
+		"image": "machine.png",
+		"a1": "Multiplexador",
+		"a2": "Demultiplexador",
+		"a3": "Selecionador",
+		"a4": "Decodificador",
+		"correct": 4
+	},
+	{
+		"question": "Em 2018, a professora Sofia na aula de história lecinou sobre os principais elementos das grandes revoluções da humanidade. Entre elas, estava o controle do fogo, a agricultura e pecuária, as máquinas a vapor, etc. Porém, ao chegar na recente Revolução Digital ou Revolução Eletrônica, ela esqueceu qual foi um dos principais elementos desta revolução. Qual das alternativas abaixo foi o elemento/componente que Sofia se esqueceu?",
+		"image": "",
+		"a1": "Portas Lógicas",
+		"a2": "Diodo",
+		"a3": "Relê",
+		"a4": "Transistor",
+		"correct": 4
+	},
+	{
+		"question": "Em uma escola do interior há um sistema de segurança contra incêndios que comunica-se em tempo real com a unidade de bombeiros da cidade. Quando um dos dispositivos deste sistema detecta um possível incêndio, ele envia o sinal '1' para o circuito X, que armazena este estado em memória, e se este não for 'resetado' em dois minutos, o corpo de bombeiros é imediatamente acionado e tomam as medidas cabíveis. Entre as alternativas abaixo, qual é o circuito X mencionado?",
+		"image": "",
+		"a1": "Armazenador",
+		"a2": "Latch",
+		"a3": "Acionador",
+		"a4": "MDR",
 		"correct": 2
 	}
 ]
