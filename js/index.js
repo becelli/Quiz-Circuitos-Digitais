@@ -32,7 +32,7 @@ const Answer = (x) => {
 	sessionStorage.setItem('qIndex', qIndex)
 	if (x == data.correct) hits++
 	sessionStorage.setItem('hits', hits)
-	window.location.reload(true)
+	location.reload()
 }
 
 const recoverQuestionIndex = () => {
@@ -49,10 +49,10 @@ if (questionIndex <= totalQuestions) readJSON()
 else {
 	const congratsMsg = document.querySelector('#congrats-message')
 	const congratsGif = document.querySelector('#final-gif')
-	if (hits >= Math.floor(totalQuestions * 0.75)) {
+	if (hits >= Math.floor(totalQuestions * 0.75) + 1) {
 		congratsMsg.style.color = '#2fcf2f'
 		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
-	} else if (hits >= Math.floor(totalQuestions / 2)) {
+	} else if (hits >= totalQuestions * 0.5) {
 		congratsMsg.style.color = '#efaf0f'
 		congratsMsg.innerHTML = `Parabéns, você acertou ${hits} de ${totalQuestions} questões!`
 		congratsGif.setAttribute('src', './assets/gif/fine.gif')
