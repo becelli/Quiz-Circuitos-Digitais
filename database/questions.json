@@ -1,6 +1,6 @@
 [
 	{
-		"question": "Para investir em jovens capacitados em tecnologia, o Governo do Estado de Cisplatina em união à Secretaria Estadual de Educação implantou na base curricular o estudo e desenvolvimento de circuitos digitais e robótica. Para isso, foi necessário a aquisição de softwares especializados em modelagem de circuitos digitais. Dentre as alternativas abaixo, qual destes é desenvolvido para esta tarefa?",
+		"question": "Para investir em jovens capacitados em tecnologia, o Governo do Estado de Cisplatina em união com a Secretaria Estadual de Educação implantou na base curricular o estudo e desenvolvimento de circuitos digitais e robótica. Para isso, foi necessário a aquisição de softwares especializados em modelagem de circuitos digitais. Dentre as alternativas abaixo, qual destes é voltado para esta tarefa?",
 		"image": "",
 		"a1": "Intel Model Maker",
 		"a2": "Visual Studio",
@@ -22,12 +22,12 @@
 		"image": "",
 		"a1": "Portas Lógicas",
 		"a2": "Diodo",
-		"a3": "Relê",
+		"a3": "Relé",
 		"a4": "Transistor",
 		"correct": 4
 	},
 	{
-		"question": "Na Fundação Educacional Caravaggio há luzes de emergência para quando há falta de energia no período noturno. O seu funcionamento é simples: quando há energia, as luzes de emergência permanecem apagadas e carregam suas baterias. Entretanto, quando há queda ou falta de energia elétrica, as lâmpadas instantaneamente se acendem, e minimiza uma possível desordem. Escolha, dentre os circuitos abaixo, qual deles é responsável pela 'inversão' do sinal elétrico.",
+		"question": "Na Fundação Educacional Caravaggio há luzes de emergência para quando ocorre falta de energia no período noturno. O seu funcionamento é simples: quando há energia, as luzes de emergência permanecem apagadas e carregam suas baterias. Entretanto, quando há queda ou falta de energia elétrica, as lâmpadas instantaneamente se acendem, e minimizam uma possível desordem. Escolha, dentre os circuitos abaixo, qual deles é responsável pela 'inversão' do sinal elétrico.",
 		"image": "",
 		"a1": "Detector",
 		"a2": "Inversor",
@@ -36,7 +36,7 @@
 		"correct": 3
 	},
 	{
-		"question": "Na aula de matemática, ao lecionar as diferentes bases numéricas e sistemas de numeração a professora ficou muito triste com a recepção dos alunos, pois demonstravam não gostar de matemática e disseram que preferiam a disciplina de Língua Portuguesa. Ela voltou para casa e pensou em alguma maneira de associar as duas matérias. Na aula seguinte, ela pediu para que João encontrasse um verbo da língua portuguesa apenas utilizando o número 110011 em base binária e o sistema de numeração romano. Qual verbo a professora queria que João encontrasse?",
+		"question": "Na aula de matemática, ao lecionar as diferentes bases numéricas e sistemas de numeração a professora ficou muito triste com a recepção dos alunos, pois demonstravam não gostar de matemática e disseram que preferiam a disciplina de Língua Portuguesa. Ela voltou para casa e pensou em alguma maneira de associar as duas matérias. Na aula seguinte, ela pediu para que os alunos encontrassem um verbo da língua portuguesa apenas utilizando o número 110011 em base binária e o sistema de numeração romano. Qual verbo a professora queria que a classe encontrasse?",
 		"image": "bases.jpg",
 		"a1": "Ler",
 		"a2": "Ser",
@@ -45,7 +45,7 @@
 		"correct": 1
 	},
 	{
-		"question": "Imagine que em uma escola foi instalado um circuito que determina a quantidade de alunos (distintos ou não) que passa pelo portão principal todos os dias. Qual foi o circuito instalado nesta escola?",
+		"question": "Imagine que em uma escola foi instalado um circuito que determina a quantidade de alunos (distintos ou não) que passam pelo portão principal todos os dias. Qual foi o circuito instalado nesta escola?",
 		"image": "",
 		"a1": "Somador",
 		"a2": "Flip-flop",
@@ -72,7 +72,7 @@
 		"correct": 4
 	},
 	{
-		"question": "Em uma escola do interior, há um sistema de segurança contra incêndios que comunica-se em tempo real com a unidade de bombeiros da cidade. Quando um dos dispositivos deste sistema detecta um possível incêndio, ele envia o sinal '1' para o circuito X, que armazena este estado em memória, e se este não for 'resetado' em dois minutos, o corpo de bombeiros é imediatamente acionado e tomam as medidas cabíveis. Entre as alternativas abaixo, qual é o circuito X mencionado?",
+		"question": "Em uma escola do interior, há um sistema de segurança contra incêndios que comunica-se em tempo real com a unidade de bombeiros da cidade. Quando um dos dispositivos deste sistema detecta um possível incêndio, ele envia o sinal '1' para o circuito digital X, que armazena este estado em memória, e se este não for 'resetado' em dois minutos, o corpo de bombeiros é imediatamente acionado e tomam as medidas cabíveis. Entre as alternativas abaixo, qual é o circuito digital X mencionado?",
 		"image": "",
 		"a1": "Armazenador",
 		"a2": "Latch",
