@@ -1,15 +1,15 @@
 [
 	{
-		"question": "Para investir em jovens capacitados em tecnologia, o Governo do Estado de Cisplatina em união com a Secretaria Estadual de Educação implantou na base curricular o estudo e desenvolvimento de circuitos digitais e robótica. Para isso, foi necessário a aquisição de softwares especializados em modelagem de circuitos digitais. Dentre as alternativas abaixo, qual destes é voltado para esta tarefa?",
+		"question": "Para investir em jovens capacitados em tecnologia, o Governo do Estado de Cisplatina em união com a Secretaria Estadual de Educação implantou na base curricular o estudo e desenvolvimento de circuitos digitais e robótica. Para isso, foi necessária a aquisição de programas especializados em modelagem de circuitos digitais. Dentre as alternativas abaixo, qual delas é voltada para esta tarefa?",
 		"image": "",
 		"a1": "Intel Model Maker",
 		"a2": "Visual Studio",
-		"a3": "Hardware C",
+		"a3": "Hypnotix",
 		"a4": "Quartus II",
 		"correct": 4
 	},
 	{
-		"question": "Em uma escola, a professora Carla notou que os 7 alunos de sua pequena turma do 1º ano não se relacionavam bem e brigavam muito entre si. Como um exercício psicossocial, ela os levava para o intervalo somente quando oito botões (sete para os alunos, e um para ela), devidamente distanciados na sala para que um único aluno não aperte mais de um botão, fossem pressionados ao mesmo tempo. Para tal, ela conectou todos os sinais dos botões a um circuito digital que somente emitia um som  quando todos os botões fossem devidamente pressionados. Escolha, dentre as alternativas, qual circuito ela utilizou para esta tarefa.",
+		"question": "Em uma escola, a professora Carla notou que os 7 alunos de sua pequena turma do 1º ano não se relacionavam bem e brigavam muito entre si. Como um exercício psicossocial, ela os levava para o intervalo somente quando oito botões (sete para os alunos, e um para ela), devidamente distanciados na sala para que um único aluno não aperte mais de um botão, fossem pressionados ao mesmo tempo. Para tal, ela conectou todos os sinais dos botões a um equipamento que somente emitia um som quando todos os botões fossem devidamente pressionados. Escolha, dentre as alternativas, qual circuito digital do equipamento é responsável por esta tarefa.",
 		"image": "",
 		"a1": "Contador",
 		"a2": "Porta AND",
@@ -18,7 +18,7 @@
 		"correct": 2
 	},
 	{
-		"question": "Em 2018, a professora Sofia na aula de história lecionou sobre os principais elementos das grandes revoluções da humanidade. Entre elas, estava o controle do fogo, a agricultura e pecuária, as máquinas a vapor, etc. Porém, ao chegar na recente Revolução Digital ou Revolução Eletrônica, ela esqueceu qual foi um dos principais elementos desta revolução. Qual das alternativas abaixo foi o elemento/componente que Sofia se esqueceu?",
+		"question": "Em 2018, a professora Sofia, na aula de história, lecionou sobre os principais elementos das grandes revoluções da humanidade. Entre elas, estava o controle do fogo, a agricultura e pecuária, as máquinas a vapor, etc. Porém, ao chegar na recente Revolução Digital ou Revolução Eletrônica, ela esqueceu qual foi um dos principais elementos desta revolução. Qual das alternativas abaixo representa o elemento/componente do qual Sofia se esqueceu?",
 		"image": "",
 		"a1": "Portas Lógicas",
 		"a2": "Diodo",
@@ -27,12 +27,12 @@
 		"correct": 4
 	},
 	{
-		"question": "Na Fundação Educacional Caravaggio há luzes de emergência para quando ocorre falta de energia no período noturno. O seu funcionamento é simples: quando há energia, as luzes de emergência permanecem apagadas e carregam suas baterias. Entretanto, quando há queda ou falta de energia elétrica, as lâmpadas instantaneamente se acendem, e minimizam uma possível desordem. Escolha, dentre os circuitos abaixo, qual deles é responsável pela 'inversão' do sinal elétrico.",
+		"question": "A Fundação Educacional Caravaggio, assim como qualquer outra instituição ou residência do estado, está conectada e, portanto, recebe eletricidade da companhia de distribuição de energia elétrica do estado. Mesmo assim, a fundação instalou um pequeno gerador de energia, suficiente apenas para produzir um pouco de eletricidade quando a distribuidora falha. Na fundação, há também luzes de emergência para quando ocorre redução de energia no período noturno. O seu funcionamento é simples: quando há bastante energia, as luzes de emergência permanecem apagadas. Entretanto, quando há pouca energia elétrica, as lâmpadas instantaneamente se acendem, e minimizam uma possível desordem entre os alunos. Escolha, dentre os circuitos abaixo, qual deles provavelmente é usado em conjunto com as lâmpadas de emergência.",
 		"image": "",
-		"a1": "Detector",
-		"a2": "Inversor",
+		"a1": "Porta AND",
+		"a2": "Flip-flop",
 		"a3": "Porta NOT",
-		"a4": "Reversor",
+		"a4": "Registrador",
 		"correct": 3
 	},
 	{
@@ -54,7 +54,7 @@
 		"correct": 3
 	},
 	{
-		"question": "Na aula de educação física, o professor Roberto orientou os alunos do primeiro ano do ensino médio a jogarem basquete. Um de seus alunos, Daniel, gosta muito de computação, e pediu  ao professor que o deixasse utilizar um circuito para a contagem da pontuação e ele concordou. Neste circuito, há três botões que acrescentam 1, 2 e 3 pontos na contagem total de um time. Determine o circuito utilizado para que seja computado, de uma só vez, 1, 2 ou 3 pontos na contagem total.",
+		"question": "No Judô, as lutas duram no máximo quatro minutos. O lutador que consegue aplicar o golpe “Ippon” vence e encerra imediatamente luta. Se nenhum lutador conseguir o golpe “Ippon”, vence quem tiver mais pontos computados durante os quatro minutos. Os pontos são obtidos aplicando os outros golpes no adversário. Os golpes e respectivos pontos aparecem na tabela abaixo. <br><table> <tr> <td><b>Golpe</b></td> <td><b>Pontos</b></td> </tr> <tr> <td>Yusei</td> <td>1</td> </tr> <tr> <td>Koka</td> <td>3</td> </tr> <tr> <td>Yuko</td> <td>5</td> </tr> <tr> <td>Wazari</td> <td>7</td> </tr> <tr> <td>Ippon</td> <td>10</td> </tr> </table> Na aula de educação física, o professor Roberto orientou os alunos do primeiro ano do ensino médio a lutarem Judô. Um de seus alunos, Daniel, gosta muito de computação, e pediu ao professor que o deixasse utilizar um circuito para computar a pontuação e ele concordou. Nesse circuito, há três botões que acrescentam 1, 3, 5, 7 ou 10 pontos à contagem total de um lutador. Determine o circuito utilizado para computar a pontuação de um lutador qualquer.",
 		"image": "",
 		"a1": "Contador",
 		"a2": "Somador",
@@ -72,12 +72,12 @@
 		"correct": 4
 	},
 	{
-		"question": "Em uma escola do interior, há um sistema de segurança contra incêndios que comunica-se em tempo real com a unidade de bombeiros da cidade. Quando um dos dispositivos deste sistema detecta um possível incêndio, ele envia o sinal '1' para o circuito digital X, que armazena este estado em memória, e se este não for 'resetado' em dois minutos, o corpo de bombeiros é imediatamente acionado e tomam as medidas cabíveis. Entre as alternativas abaixo, qual é o circuito digital X mencionado?",
+		"question": "Em uma escola do interior, há um sistema de segurança contra incêndios que comunica-se em tempo real com a unidade do corpo de bombeiros da cidade. Quando um dos dispositivos deste sistema detecta um possível incêndio, ele envia o sinal '1' para o circuito digital X, que armazena este estado e, se este não for 'resetado', em dois minutos o corpo de bombeiros é acionado e tomam as medidas cabíveis. Entre as alternativas abaixo, qual é o circuito digital X mencionado?",
 		"image": "",
-		"a1": "Armazenador",
+		"a1": "Subtrador",
 		"a2": "Latch",
 		"a3": "Acionador",
-		"a4": "MDR",
+		"a4": "Bombeador",
 		"correct": 2
 	},
 	{

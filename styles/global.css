@@ -90,9 +90,21 @@ main {
 #question-img {
 	width: 80%;
 	max-height: 50vh;
-	object-fit:contain;
+	object-fit: contain;
 	border-radius: 10px;
 }
 #img-box {
 	text-align: center;
+}
+
+table {
+	text-align: center;
+	border-collapse: collapse;
+	position: relative;
+	margin: 15px auto;
+	font-size: 1.3rem;
+}
+table td {
+	border: 2px black solid;
+	padding: 3px;
 }
